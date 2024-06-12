@@ -1,0 +1,82 @@
+html {
+    height: 100vh;
+    background-color: lightblue;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 500px;
+  }
+  h3 {
+    font-weight: lighter;
+  }
+  
+  .card {
+    width: 1300px;
+    height: 600px;
+    justify-content: center;
+    margin-top: 50px;
+    border: 5px double black;
+    padding: 10px 10px 10px 10px;
+    background-image:linear-gradient(to bottom right, rgb(231, 57, 225), rgb(230, 230, 59));
+  }
+  
+  .banner {
+    width: 1200px;
+    height: 430px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 45px;
+    border: 2px groove black;
+    border-radius: 20px;
+    background-image:linear-gradient(to bottom right, rgb(57, 103, 231), rgb(76, 239, 95));
+  }
+  
+  .eventbanner {
+    width: 280px;
+    height: 380px;
+    margin-top: 25px;
+    margin-left: 100px;
+    position: absolute;
+  }
+  
+  .information {
+    margin-left: 550px;
+    margin-top: 60px;
+  }
+  
+  .input {
+    width: 300px;
+    height: 30px;
+    background: white;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .submit {
+    width: 200px;
+    height: 35px;
+    border-radius: 0px;
+    margin-left: 700px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border: 2px solid rgb(91, 89, 89);
+  }
+  button:hover {
+    background-color: rgb(120, 120, 232);
+    cursor: pointer;
+    border-radius: 0px;
+  }
