@@ -6,7 +6,7 @@ row.classList.add("row")
 
 let counter = document.createElement("div")
 counter.classList.add("col-md-4", "offset-md-4", "text-center", "rounded", "border", "align-middle")
-counter.style.color = "white" 
+counter.style.color = "yellow" 
 
 
 let message = document.createElement("h1")
@@ -38,7 +38,7 @@ setTimeout(() => {
                                             message.innerHTML = "0"
                                             setTimeout(() => {
                                                 message.innerHTML = "Happy Independence Day"
-                                                message.style.fontSize = "5rem"
+                                                message.style.fontSize = "10rem"
                                                 counter.classList.add("col-md-12")
                                                 counter.classList.remove("offset-md-4")
                                             }, 1000);
