@@ -1,4 +1,4 @@
-let main_div = document.createElement("div")
+ let main_div = document.createElement("div")
 main_div.classList.add("container", "mt-5", "text-center")
 
 let row = document.createElement("div")
@@ -6,7 +6,7 @@ row.classList.add("row")
 
 let counter = document.createElement("div")
 counter.classList.add("col-md-4", "offset-md-4", "text-center", "rounded", "border", "align-middle")
-counter.style.color = "white"
+counter.style.color = "white" 
 
 
 let message = document.createElement("h1")
