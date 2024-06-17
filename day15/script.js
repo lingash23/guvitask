@@ -286,7 +286,7 @@ function action() {
         cell7.innerHTML = document.getElementById('state').value;
         cell8.innerHTML = document.getElementById('country').value;
 
-        alert('Yeah buddy... you have submitted the form sucessfully...')
+        alert('You have submitted the form sucessfully...')
     }
 
 
