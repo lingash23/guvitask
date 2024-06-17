@@ -1,15 +1,14 @@
- let main_div = document.createElement("div")
+const main_div = document.createElement("div")
 main_div.classList.add("container", "mt-5", "text-center")
 
-let row = document.createElement("div")
+const row = document.createElement("div")
 row.classList.add("row")
 
-let counter = document.createElement("div")
+const counter = document.createElement("div")
 counter.classList.add("col-md-4", "offset-md-4", "text-center", "rounded", "border", "align-middle")
 counter.style.color = "yellow" 
 
-
-let message = document.createElement("h1")
+const message = document.createElement("h2")
 message.classList.add("heading")
 message.innerHTML = "10"
 message.style.fontSize = "10rem"
