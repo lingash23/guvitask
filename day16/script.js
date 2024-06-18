@@ -41,5 +41,4 @@ message.style.fontSize = "8rem"
 counter.appendChild(message)
 row.appendChild(counter)
 main_div.appendChild(row)
-
 document.body.append(main_div)
