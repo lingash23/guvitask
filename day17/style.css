@@ -5,13 +5,13 @@
     object-fit: cover;
   }
   .card {
-    background-color: #575454;
+    background-color: #ffbdbd;
     border: 1px solid #e3e6ea;
     box-sizing: border-box;
     padding: 15px;
   }
   .card-header {
-    background-color: #343a40;
+    background-color: #733333;
     color: #fff;
     text-align: center;
     font-size: 1.25rem;
@@ -26,3 +26,5 @@
   .btn-primary {
     width: 100%;
   }
+
+ 
