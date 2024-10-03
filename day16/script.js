@@ -33,7 +33,7 @@ setTimeout(() => {
                                     setTimeout(() => {
                                         message.innerHTML = "1"
                                             setTimeout(() => {
-                                                message.innerHTML = "Happy Independence Day to Everyone"
+                                                message.innerHTML = " 🤣😁🤪 "
                                                 message.style.fontSize = "5rem"
                                                 counter.classList.add("col-md-12")
                                                 counter.classList.remove("offset-md-4")
